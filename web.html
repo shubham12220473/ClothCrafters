@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <link rel="stylesheet" href="Web.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+        <style>
+            .log{
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>ClothCrafters</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shop" onclick="shops()">Shop </a>
+                    <a id="blog" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="abouts()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <i class="fa-sharp fa-solid fa-cart-shopping" onclick="shops()"></i>
+                    <a id="signin" href="index.html" class="log">Signin</a>
+
+                </li>
+            </ul>
+        </nav>
+
+        <!-- mainpage -->
+
+        <div class="main">
+            <div class="mainText">
+                <h2>ClothCrafters</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>"Discover Your Fashion DNA Here!"</p>
+                <button>Explore</button>
+            </div>
+            <img src="m2.png" alt="">
+        </div>
+
+        <!-- Men Clothes -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>ClothCrafters<span>Men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="srt1.webp" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+
+                 <div class="crd">
+                    <img src="s1.jpg" alt="" onclick="show(this)">
+                    <div class="crdText">
+                        <h2>Cotton Trending Shirt's</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i> <br>
+                        <button>Add to Cart</button>
+                    </div>
+                 </div>
+                    <div class="crd">
+                        <img src="srt6.webp" alt="" onclick="show(this)">
+                        <div class="crdText">
+                            <h2>Cotton Trending Shirt's</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Women Clothes -->
+
+                <div class="trend" id="trendSec">
+                    <div class="head">
+                        <h1>ClothCrafters <span>Women's Wear</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="crd">
+                            <img src="wn4.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Dress</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wn5.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Dress</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="crd">
+                            <img src="wn6.webp" alt="" onclick="show(this)">
+                            <div class="crdText">
+                                <h2>Trending Girl Dress</h2>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i> <br>
+                            <button>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+
+                  <!-- blogs -->
+                  <div class="trends">
+                    <div class="head">
+                        <h1>ClothCrafters<span>Men's Wear</span></h1>
+                    </div>
+                    <div class="card">
+                        <div class="blog">
+                            <img src="tr1.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Girl Cloths</h2>
+                                <p>Step into a world of trendsetting fashion with our curated collection of girls' clothing! From vibrant prints to timeless classics, we've got the styles to make every girl feel like a fashion icon. Explore our latest blog post.</p>
+                                <a href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                            </div>
+                        </div>
+
+                        <div class="blog">
+                            <img src="tr3.webp" alt="">
+                            <div class="blogText">
+                                <h2>Trending Boys Cloths</h2>
+                                <p>"Dive into the world of cutting-edge fashion with our latest collection of boys' clothing! From streetwear staples to sophisticated essentials, we've curated the ultimate lineup of trendsetting styles for every young trendsetter. Check out our newest blog post.</p>
+                                <a href="https://www.apetogentleman.com/">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- about us -->
+
+                <div class="about">
+
+                    <div class="aboutus">
+                        <h1>#KnowUs</h1>
+                        <p>"Discover Your Fashion DNA Here!"</p>
+                    </div>
+
+                    <div class="me">
+                        <img src="lap.png" alt="">
+                        <div class="aboutText">
+                            <h1>Who we are ?</h1>
+=                            <p>"Welcome to ClothCrafters! We're your go-to destination for trendy fashion and timeless classics. With a curated selection for men, women, and kids, we blend style and convenience seamlessly. Our team stays ahead of the curve, offering the latest trends and wardrobe essentials. But we're more than just a store; we're a community of fashion enthusiasts committed to exceptional service. Shop with us for a seamless experience from browsing to checkout, and discover the joy of self-expression through fashion."</p> 
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact">
+
+                    <div class="contactus">
+                        <h1>#Let's Connect</h1>
+                        <p>"Fashion Forward, Confidence Amplified!"</p>
+                    </div>
+
+                    <div class="contactMe">
+                        <div class="contactText">
+                            <h1>Visit Our Office or Contact <br>
+                                Us Today</h1>
+                            <p>Address : Hisar,Haryana,India.</p>
+                            <p>Contact : deepsingla022@gmail.com</p>
+                            <p>Number : 9896541832</p>
+                        </div>
+                        <img src="map1.png" width="250px" height="500px" alt="">
+                    </div>
+
+                    <div class="form">
+                        <h1>Connect with Us. Fill Form</h1>
+                        <input type="text" id="FullName" placeholder="FullName"> <br>
+                        
+                        <input type="text" placeholder="Enter Email"> <br>
+                        <input type="text" placeholder="Enter contact no"> <br>
+                        <input type="text" placeholder="reason for contact "> <br>
+                        <input type="text" placeholder="Preferred method of contact"> <br>
+                        <input type="text" placeholder="Additional information"> <br>
+                        <button>Submit</button>
+
+                    </div>
+                </div>
+                 <!-- cart -->
+
+                 <div class="cart">
+                    <img id="newImg" src="" alt="">
+                    <div class="cartText">
+                        <h1>Trends Offer : Trending Shop <br>
+                            Now</h1>
+                            <h2>Special Price</h2>
+                            <h2>$11</h2>
+                           <div class="btn">
+                            <button>Buy Now</button>
+                            <button onclick="addCart()">Add to Cart</button>
+                           </div>
+                           <button  class="back">Back</button>
+
+
+
+                    </div>
+                 </div>
+
+       
+
+                <!-- Letter -->
+
+                <!-- <div class="letter">
+                    <div class="letterText">
+                        <h1>Sign Up for NewsLetter</h1>
+                        <p>"Style Redefined, Adventure Awaits!"</p>
+                    </div>
+                    <div class="inp">
+                    <a id="signup" onclick="signups()"><button>Signup</button></a>
+                    </div>
+                </div> -->
+
+                <!-- Footer -->
+
+                <div class="footer letter">
+                    <div class="footerText">
+                        <h2>ClothCrafters</h2>
+                        <p>Service </p>
+                        <p>Customer</p>
+                        <p>Satisfaction</p>
+                        
+
+                    </div>
+                    <div class="footerText">
+                        <h2>About US</h2>
+                        <p>Adrress : 9,New Cloth Market, <br>
+                            Hisar,New Cloth Market,<br>
+                            Hisar,125001</p>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Satisfation</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Contect</h2>
+                        <p>9896541832</p>
+                        <p>Customer</p>
+                        <p>Comming up</p>
+                        <p>New Arrival</p>
+
+                    </div>
+                    <div class="footerText">
+                        <h2>Trending</h2>
+                        <p>Service</p>
+                        <p>Customer</p>
+                        <p>Shops</p>
+                        <p></p>
+
+                    </div>
+                </div>
+            </div>
+            <script src="Web.js"></script>
+            <script>
+                // Voice recognition setup
+                let recognition = new webkitSpeechRecognition();
+                recognition.lang = 'en-US';
+                recognition.continuous = true;
+                recognition.interimResults = false;
+            
+                recognition.onresult = function(event) {
+                    let result = event.results[event.results.length - 1][0].transcript.toLowerCase();
+                    console.log('You said: ', result);
+            
+                    // Voice commands
+                    if (result.includes('scroll down')) {
+                        window.scrollBy(0,600);
+                    } else if (result.includes('scroll up')) {
+                        window.scrollBy(0,-600);
+                    } else if (result.includes('home')) {
+                        document.getElementById('home').click();
+                    } else if (result.includes('shop')) {
+                        document.getElementById('shop').click();
+                    } else if (result.includes('blog')) {
+                        document.getElementById('blog').click();
+                    } else if (result.includes('about')) {
+                        document.getElementById('about').click();
+                    } else if (result.includes('contact')) {
+                        document.getElementById('contact').click();
+                    } else if(result.includes('signin')) {
+                        document.getElementById('signin').click();
+                    
+                    }
+                
+
+                };
+            
+                recognition.onerror = function(event) {
+                    console.error('Speech recognition error:', event.error);
+                };
+            
+                // Start recognition
+                recognition.start();
+            </script>
+
+
+</body>
+
+</html>
